@@ -1,2 +1,2 @@
 # NeuS-HSR
-Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections (CVPR 2023)
+This repository contains the code (in PyTorch) for "Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections" paper(CVPR 2023)
