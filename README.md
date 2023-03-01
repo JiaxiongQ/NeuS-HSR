@@ -4,5 +4,5 @@ We will release our code and dataset soon!
 
 
 ## Acknowlegement
-Our code is built on [NeuS](https://github.com/Totoro97/NeuS) project. Our real-world dataset is constructed by following [NeRF++](https://github.com/Kai-46/nerfplusplus). 
+Our code is built on [NeuS](https://github.com/Totoro97/NeuS) project. Our real-world dataset is constructed by following [NeRF++](https://github.com/Kai-46/nerfplusplus) project. 
 Thanks for these great projects!
