@@ -3,6 +3,14 @@ This is the official repo for the implementation of "Looking Through the Glass: 
 
 We will release our code and dataset soon!
 
+## Acknowlegement
+Our code is built on [NeuS](https://github.com/Totoro97/NeuS) project. 
+
+Our real-world dataset is constructed by following [NeRF++](https://github.com/Kai-46/nerfplusplus) project. 
+
+Thanks for these great projects!
+
+
 ## Citation 
 If you use our code or method in your work, please cite the following:
 ```
@@ -12,10 +20,5 @@ title = {Looking Through the Glass: Neural Surface Reconstruction Against High S
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 year = {2023}
 }
+```
 
-## Acknowlegement
-Our code is built on [NeuS](https://github.com/Totoro97/NeuS) project. 
-
-Our real-world dataset is constructed by following [NeRF++](https://github.com/Kai-46/nerfplusplus) project. 
-
-Thanks for these great projects!
