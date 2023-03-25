@@ -3,6 +3,12 @@ This is the official repo for the implementation of "Looking Through the Glass: 
 
 We will release our code and dataset soon!
 
+# Synthetic Dataset
+[Google Drive](https://drive.google.com/file/d/11tdooelweg4qzsYN1VzX8zw0-CXO4t9L/view?usp=share_link) only contains images, camera parameters are in [DTU Dataset](https://roboimagedata.compute.dtu.dk/?page_id=36).
+
+# Real-world Dataset
+[Google Drive](https://drive.google.com/file/d/1ULYdffLJIRVLWAeaRGqhALS1FbiOpf77/view?usp=share_link)
+
 ## Acknowlegement
 Our code is built on [NeuS](https://github.com/Totoro97/NeuS) project. 
 
