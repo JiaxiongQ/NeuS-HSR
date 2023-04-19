@@ -1,5 +1,5 @@
 # NeuS-HSR
-This is the official repo for the implementation of "Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections" paper (CVPR 2023).
+This is the official repo for the implementation of "Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections" paper (CVPR 2023). [Arxiv](https://arxiv.org/abs/2304.08706)
 
 We will release our code soon!
 
