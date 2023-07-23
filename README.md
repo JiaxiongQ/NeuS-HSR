@@ -1,13 +1,27 @@
 # NeuS-HSR
-This is the official repo for the implementation of "Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections" paper (CVPR 2023).
+This is the official repo for the implementation of "[Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections](https://openaccess.thecvf.com/content/CVPR2023/html/Qiu_Looking_Through_the_Glass_Neural_Surface_Reconstruction_Against_High_Specular_CVPR_2023_paper.html)" paper (CVPR 2023). [Arxiv](https://arxiv.org/abs/2304.08706) [Video](https://www.youtube.com/watch?v=lwHd-GJAmMA)
 
 We will release our code soon!
 
-# Synthetic Dataset
+## Synthetic Dataset
 [Google Drive](https://drive.google.com/file/d/11tdooelweg4qzsYN1VzX8zw0-CXO4t9L/view?usp=share_link) only contains images, camera parameters are in [DTU Dataset](https://roboimagedata.compute.dtu.dk/?page_id=36).
 
-# Real-world Dataset
+## Real-world Dataset
 [Google Drive](https://drive.google.com/file/d/1ULYdffLJIRVLWAeaRGqhALS1FbiOpf77/view?usp=share_link)
+
+## Comparison
+
+![](./gifs/buddha.gif)
+![](./gifs/plate.gif)
+![](./gifs/bronze.gif)
+
+## Novel View Synthesis
+
+![](./gifs/novel.gif)
+
+## Mirror case
+
+![](./gifs/mirror.gif)
 
 ## Acknowlegement
 Our code is built on [NeuS](https://github.com/Totoro97/NeuS) project. 
