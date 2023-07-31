@@ -352,6 +352,8 @@ class Runner:
 
         logging.info('End')
 
+
+
 if __name__ == '__main__':
     print('Hello Wooden')
 
@@ -367,10 +369,17 @@ if __name__ == '__main__':
     parser.add_argument('--is_continue', default=False, action="store_true")
     parser.add_argument('--gpu', type=int, default=0)
     parser.add_argument('--case', type=str, default='')
-
+    parser.add_argument("--seed", type=int, default=2022)
     args = parser.parse_args()
 
     torch.cuda.set_device(args.gpu)
+    #keep same seed
+    if args.seed > 0:
+        random.seed(args.seed)
+        np.random.seed(args.seed)
+        torch.manual_seed(args.seed)
+        torch.cuda.manual_seed(args.seed)
+        
     runner = Runner(args.conf, args.mode, args.case, args.is_continue)
 
     if args.mode == 'train':
